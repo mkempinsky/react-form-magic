@@ -19,9 +19,9 @@
         "build-storybook": "build-storybook"
     },
     "repository": {
-        "type": "",
-        "url": ""
-    },
+      "type": "git",
+      "url": "git@github.com:mkempinsky/react-form-magic.git"
+  },
     "author": "Michele Kempinsky",
     "license": "ISC",
     "peerDependencies": {
