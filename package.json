@@ -20,7 +20,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git@github.com:mkempinsky/react-form-magic.git"
+      "url": "https://github.com/mkempinsky/react-form-magic.git"
   },
     "author": "Michele Kempinsky",
     "license": "ISC",
