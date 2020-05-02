@@ -1,0 +1,69 @@
+{
+    "name": "react-form-magic",
+    "version": "1.0.0",
+    "description": "Easy and elegant way to build forms in React. ✨",
+    "main": "lib/react-form-magic.js",
+    "engineStrict": true,
+    "engines": {
+        "node": ">=8.11"
+    },
+    "files": [
+        "lib/react-form-magic.js"
+    ],
+    "scripts": {
+        "test": "jest",
+        "start": "webpack-dev-server --open --mode=development --hot",
+        "dev": "webpack --mode=production --watch",
+        "build": "NODE_ENV=production webpack  --mode=production",
+        "storybook": "start-storybook -p 3000",
+        "build-storybook": "build-storybook"
+    },
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "author": "Michele Kempinsky",
+    "license": "ISC",
+    "peerDependencies": {
+        "date-fns": "^1.30.1",
+        "isomorphic-unfetch": "^3.0.0",
+        "nprogress": "^0.2.0",
+        "react": "^16.8.4",
+        "react-dom": "^16.8.4"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.5.0",
+        "@babel/core": "^7.5.4",
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/plugin-transform-runtime": "^7.5.5",
+        "@babel/preset-env": "^7.5.4",
+        "@babel/preset-react": "^7.0.0",
+        "@storybook/addon-actions": "^5.1.9",
+        "@storybook/addon-info": "^5.1.9",
+        "@storybook/addon-knobs": "^5.1.9",
+        "@storybook/addon-links": "^5.1.9",
+        "@storybook/addons": "^5.1.9",
+        "@storybook/react": "^5.1.9",
+        "@wordpress/shortcode": "^2.3.0",
+        "babel-loader": "^8.0.6",
+        "date-fns": "^1.30.1",
+        "enzyme": "^3.10.0",
+        "enzyme-adapter-react-16": "^1.14.0",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "isomorphic-unfetch": "^3.0.0",
+        "nprogress": "^0.2.0",
+        "prop-types": "^15.7.2",
+        "styled-components": "^4.3.2",
+        "webpack": "^4.17.1",
+        "webpack-bundle-analyzer": "^3.3.2",
+        "webpack-cli": "^3.1.0",
+        "webpack-dev-server": "^3.7.2",
+        "webpack-node-externals": "^1.7.2"
+    },
+    "dependencies": {
+        "@wordpress/url": "^2.6.0",
+        "he": "^1.2.0",
+        "styled-jsx": "^3.2.0"
+    }
+}
