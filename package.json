@@ -1,6 +1,6 @@
 {
     "name": "react-form-magic",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "Easy and elegant way to build forms in React. ✨",
     "main": "lib/react-form-magic.js",
     "engineStrict": true,
