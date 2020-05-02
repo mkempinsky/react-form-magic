@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import {blue} from '../../lib/styles';
 import PropTypes from 'prop-types';
+import {render} from 'enzyme';
 
 const Button = (props) => {
     const {className = '', children, style = {}, overrides = {}} = props;
